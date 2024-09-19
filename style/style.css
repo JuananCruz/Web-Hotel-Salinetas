@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    padding: 1rem 0;
+    background: linear-gradient(180deg, #FFFFFF, hwb(39 75% 0%)); 
+}
+
+/* General */
+.btn-separation {
+    margin-right: 10px;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    transition: filter 0.3s ease-in-out;
+}
+
+.carousel-item img:hover {
+    filter: brightness(1);
+}
+
+/* Cards */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Buttons */
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-primary, .btn-secondary {
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 0.9rem;
+}
+
+/* Navbar */
+.navbar .nav-link {
+    color: #333 !important;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: larger;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff !important;
+    transform: scale(1.1);
+}
+
+#profile-btn img, #logout-btn img {
+    max-width: 40px;
+    margin-right: 5px; 
+    transition: transform 0.3s ease;
+}
+
+#profile-btn:hover img, #logout-btn:hover img {
+    transform: scale(1.2);
+}
+
+
+.header-nav-container {
+    background: linear-gradient(180deg,  hwb(39 85% 0%), #FFFFFF); 
+}
+
+
+.header {
+    border-bottom: none;
+}
+
+.navbar {
+    background-color: transparent;
+}
+.navbar-nav {
+    align-items: center; 
+}
+
+

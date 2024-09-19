@@ -1,0 +1,6 @@
+Explicación de las tablas:
+usuarios: Almacena la información de todos los usuarios del sistema, con un campo rol para indicar el tipo de usuario (anónimo, cliente, recepcionista, administrador).
+reservas: Almacena las reservas realizadas por los usuarios, con una relación de clave foránea al id de la tabla usuarios.
+habitaciones: Almacena la información de las habitaciones disponibles en el hotel.
+logs: Almacena el registro de acciones realizadas en el sistema por los usuarios.
+respaldos: Almacena los respaldos de la base de datos, con un campo para el archivo de respaldo.
